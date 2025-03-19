@@ -134,7 +134,7 @@ def home():
         ),
         Section(
             Div(
-                Img(src='static/banner-1.png', alt='banner'),
+                Img(src='static/banner-1.jpg', alt='banner'),
                 H4('AI-Powered Market Analysis'),
                 Button(
                     'Learn More',
@@ -146,7 +146,7 @@ def home():
                 cls='banner__card'
             ),
             Div(
-                Img(src='static/banner-2.png', alt='banner'),
+                Img(src='static/banner-2.jpg', alt='banner'),
                 H4('Data-Driven Decision Making'),
                 Button(
                     'Learn More',
@@ -193,7 +193,7 @@ def home():
         ),
         Section(
             H3('OUR PRODUCTS', cls='section__subheader'),
-            H2('Elevate your gameplay with our cutting-edge controllers', cls='section__header'),
+            H2('Empower your strategy with AI-driven market analysis.', cls='section__header'),
             Div(
                 Ul(
                     Li(
@@ -208,8 +208,8 @@ def home():
                     cls='product__list'
                 ),
                 Div(
-                    Img(src='static/product.png', alt='product'),
-                    P('Experience gaming like never before with advanced features that put\r\n            you in complete control.'),
+                    Img(src='static/product.jpg', alt='product'),
+                    P('Revolutionizing crypto market analysis with AI-powered insights\r\n             and automation.'),
                     Div(
                         Button(
                             'Explore Products',
